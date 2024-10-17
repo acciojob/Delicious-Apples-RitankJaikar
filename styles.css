@@ -1,4 +1,3 @@
-/* your code here */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -58,6 +57,10 @@ body {
     align-items: center;
 }
 
+.variant {
+    margin-bottom: 20px;
+}
+
 .photo-album ul, .variant ul {
     list-style: none;
     display: flex;
@@ -107,8 +110,27 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .price span {
     font-size: 48px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.description li {
+    margin-bottom: 8px;
+}
+
+.product button {
+    border: none;
+    background-color: #fe3f40;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    box-shadow: -2px 2px 20px #00000069;
+    font-weight: 600;
 }
